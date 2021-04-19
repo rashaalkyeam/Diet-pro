@@ -1,0 +1,27 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+h1 {
+  color: green;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img{
+width: 200;
+height: 200;
+float: left;
+}
+
+nav ul li{
+  margin:50px;
+display: inline-block;
+
+}
+nav ul li a{
+text-decoration: none;
+
+}
