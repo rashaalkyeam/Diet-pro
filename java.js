@@ -24,7 +24,7 @@ while(i>0&&i<10){
   document.write(img)
   i++;
 }
-  prompt('Enter your number of exercises you do;water sport, Climbing sport, Walking sport');
+  var sporttype= prompt('Enter your favorite sport you do;water sport, Climbing sport, Walking sport');
   if (sporttype=='water sport')
   {
      alert('Nice sport');
@@ -38,3 +38,14 @@ while(i>0&&i<10){
     alert('If allowed, enter the required sport.');
   }
 
+  function Inforetrieval(length,Weight,sporttype )
+  {
+
+    console.log('your weight ' + Weight);
+    console.log('your height ' + length);
+    console.log('Your favorite sport  ' + sporttype);
+  }
+  Inforetrieval(160,75,'Walking sport');
+
+
+  
